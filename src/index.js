@@ -1,13 +1,14 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import MyTable from './App';
+import MyForm from './MyForm';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Fragment>
+    <MyTable />
+    <MyForm />    
+  </Fragment>,
   document.getElementById('root')
 );
 
