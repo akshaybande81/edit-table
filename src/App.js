@@ -1129,7 +1129,7 @@ class MyTable extends Component {
   render() {
     return (
       <div style={{"width": "95%", 'margin': '2em'}}>
-        <h2 style={{'text-align':'center'}}>Indigo Table (Edit table prototype)</h2>
+        <h2 style={{'textAlign':'center'}}>Indigo Table (Edit table prototype)</h2>
         <Table
           columns={columns}
           bordered
